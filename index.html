@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.Monks</title>
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/vars.css">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+    integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" 
+    />
+    <link 
+    rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" 
+    />
+</head>
+<body>
+    <header>
+        <h1>.Monks</h1>
+    </header>
+    <main>
+        <div class="buttons-container">
+            <button id="artist_button">Top Artistas</button>
+            <button id="genres_button">Top Gêneros</button>
+        </div>
+        <div>
+            <div id="top_artists">
+                <ol class="list artist" id="artists_list"></ol>
+            </div>
+            <div id="top_genres">
+                <ol class="list" id="genres_list"></ol>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

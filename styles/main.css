@@ -1,0 +1,101 @@
+body {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background);
+    gap: 10px;
+}
+
+header {
+    h1 {
+        font-size: 48px;
+    }
+    padding-bottom: 25px;
+}
+
+.buttons-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    > button {
+        background-color: var(--color-button);
+        color: var(--color-text-button); 
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    button:focus {
+        box-shadow: 0 0 0 3px var(--bg-box-color); 
+        background-color: var(--bg-box-color); 
+    }
+}
+
+.list {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    max-width: 1200px;
+    min-width: 280px;
+
+    > li {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--color-text-primary);
+    }
+}
+
+.artist {
+    flex-direction: row;
+
+}
+
+#top_artists {
+    width: auto;
+    height: auto;
+}
+
+#top_genres {
+    width: auto;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.artist-card {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    span {
+        font-size: 16px;
+        
+    }
+
+     div {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 25px;
+     }
+}

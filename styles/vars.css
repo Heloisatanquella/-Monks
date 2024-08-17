@@ -1,0 +1,10 @@
+:root {
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+    /* COLORS */
+    --color-background: #7843be;
+    --color-text-button: #ffffff;
+    --color-text-primary: #000000;
+    --color-button: #4d1794;
+    --bg-box-color: rgba(0,0,07)
+  }
